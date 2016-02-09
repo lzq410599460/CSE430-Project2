@@ -10,7 +10,7 @@ int main()
 	// declare buffer to hold result of system call
 	char * buffer;
 	// set the length of the buffer
-	int n = 4000;
+	int n = 9000;
 
 	// allocate memory for buffer to hold result
 	if( ( buffer = (char *) malloc(n*sizeof(char)+1) ) == NULL ) 

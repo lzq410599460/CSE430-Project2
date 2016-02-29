@@ -24,7 +24,7 @@ while(1 && PID<10)
 		num_children=PID*3;
 		printf("PID:%d  Children process:%d\n",PID,num_children);
 		
-	if (num_children=6)  //Assume we regard 6 children process is fork bomb
+	if (num_children=6)  //Assume we regard 6 children process's parent as fork bomb
 	{
 	pthread_mutex_unlock(&lock);
 	p2k=num_children/3;
